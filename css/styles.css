@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 * {
    margin: 0;
    padding: 0;
@@ -9,33 +11,72 @@ body {
 }
 
 #sectOne {
-   background: url("../images/codeBackground.jpg") no-repeat no-repeat fixed;
-   background-size: cover;
+   background-color: #00e600;
    height: 800px;
    width: 100%;
+}
+
+#name {
+   font-size: 120px;
+   font-family: 'Pacifico', cursive;
+   color: #ffffff;
+   padding: 5px;
+}
+
+#name p:first-child {
+margin-left: 45px;
+}
+
+#name p:last-child {
+   text-align: center;
+}
+
+#missionState {
+   font-size: 24px;
+   font-family: 'Pacifico', cursive;
+   color: #ffffff;
+   padding: 5px;
+   border: 5px solid #ffffff;
+   border-radius: 25px;
 }
 
 #sectTwo {
-   background: url("../images/willPower.jpg") no-repeat no-repeat fixed;
+   background-color: #ffffff;
    background-size: cover;
    height: 800px;
    width: 100%;
-
-   /*Creating columns*/
-   -moz-column-count: 50%;
-   -webkit-column-count: 50%;
-   column-count: 50%;
+   overflow: auto;
+   /*Creating rows with flex*/
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   flex: 1;
 }
 
-/*#sectTwo section {
-   border: 1px solid white;
-   height: 200px;
-   width: 100%
-}*/
 
-#sectTwo:first-child {
-
+#sectTwo article:first-child {
+   background-color: red;
+   height: 800px;
+   width: 100%;
 }
+
+#sectTwo article:first-child h3 {
+   text-align: center;
+   font-size: 120px;
+   font-family: 'Pacifico', cursive;
+   color: #ffffff;
+   margin-top: 35%;
+}
+
+#sectTwo article:last-child {
+   background-color: blue;
+   height: 800px;
+   width: 100%;
+   padding: 18px;
+}
+
 
 #sectThree {
    background: url("../images/hue.jpg") no-repeat no-repeat fixed;
