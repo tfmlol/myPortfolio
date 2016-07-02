@@ -48,7 +48,6 @@ margin-left: 45px;
 }
 
 #sectTwo {
-   background: url("../images/willPower.jpg") no-repeat no-repeat fixed center;
    height: 900px;
    width: 100%;
    overflow: hidden;
@@ -63,6 +62,8 @@ margin-left: 45px;
 
 
 #sectTwo article:first-child {
+   background: url("../images/pikaHalf.jpg") no-repeat no-repeat fixed;
+   background-size: 50% 100%;
    height: 900px;
    width: 100%;
 }
@@ -85,7 +86,14 @@ margin-left: 45px;
 #sectThree {
    background: url("../images/hue.jpg") no-repeat no-repeat fixed;
    background-size: cover;
-   height: 800px;
+   height: 900px;
+   width: 100%;
+}
+
+#sectFour {
+   background: url("../images/geek.png") no-repeat no-repeat fixed;
+   background-size: cover;
+   height: 900px;
    width: 100%;
 }
 
