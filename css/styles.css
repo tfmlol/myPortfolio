@@ -4,7 +4,8 @@
 }
 
 body {
-
+   overflow-x: hidden;
+   /*gets rid of x coordinates overflow by hiding it*/
 }
 
 #sectOne {
@@ -19,6 +20,21 @@ body {
    background-size: cover;
    height: 800px;
    width: 100%;
+
+   /*Creating columns*/
+   -moz-column-count: 50%;
+   -webkit-column-count: 50%;
+   column-count: 50%;
+}
+
+/*#sectTwo section {
+   border: 1px solid white;
+   height: 200px;
+   width: 100%
+}*/
+
+#sectTwo:first-child {
+
 }
 
 #sectThree {
@@ -26,9 +42,6 @@ body {
    background-size: cover;
    height: 800px;
    width: 100%;
-}
-
-aside {
 }
 
 #navBar {
