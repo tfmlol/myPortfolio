@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+p {
+   color: #ffffff;
+}
+h3 {
+   color: #ffffff;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -17,7 +24,7 @@ body {
 }
 
 #sectOne {
-   background: url("../images/codeBackground.jpg") no-repeat no-repeat fixed;
+   background: url("../images/geek.png") no-repeat no-repeat fixed;
    height: 900px;
    width: 100%;
 }
@@ -34,7 +41,8 @@ margin-left: 45px;
 }
 
 #name p:last-child {
-   text-align: center;
+   margin-top: 15px;
+   float: right;
 }
 
 /*Mission Statement*/
@@ -60,12 +68,15 @@ margin-left: 45px;
    flex: 1;
 }
 
+#sectTwo article {
+   height: 900px;
+   width: 100%;
+}
 
 #sectTwo article:first-child {
    background: url("../images/pikaHalf.jpg") no-repeat no-repeat fixed;
    background-size: 50% 100%;
-   height: 900px;
-   width: 100%;
+
 }
 
 #sectTwo article:first-child h3 {
@@ -77,24 +88,74 @@ margin-left: 45px;
 }
 
 #sectTwo article:last-child {
-   height: 900px;
-   width: 100%;
+   background: url("../images/pikaTail.jpg") no-repeat no-repeat fixed;
+   background-size: 150% 100%;;
    padding: 18px;
 }
 
 
 #sectThree {
-   background: url("../images/hue.jpg") no-repeat no-repeat fixed;
+   background: url("../images/charFull.jpg") no-repeat no-repeat fixed;
    background-size: cover;
+   height: 900px;
+   width: 100%;
+   overflow: hidden;
+   /*Creating rows with flex*/
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   flex: 1;
+}
+
+#sectThree article {
    height: 900px;
    width: 100%;
 }
 
+#sectThree article:first-child {
+   padding: 18px;
+}
+
+#sectThree article:last-child h3 {
+   text-align: center;
+   font-size: 120px;
+   font-family: 'Pacifico', cursive;
+   color: #ffffff;
+   margin-top: 35%;
+}
+
 #sectFour {
-   background: url("../images/geek.png") no-repeat no-repeat fixed;
+   background: url("../images/squirtFull.jpg") no-repeat no-repeat fixed;
    background-size: cover;
    height: 900px;
    width: 100%;
+   overflow: hidden;
+   /*Creating rows with flex*/
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   flex: 1;
+}
+
+#sectFour article {
+   height: 900px;
+   width: 100%;
+}
+
+#sectFour article:first-child h3 {
+   text-align: center;
+   font-size: 120px;
+   font-family: 'Pacifico', cursive;
+   color: #ffffff;
+   margin-top: 35%;
+}
+
+#sectFour article:last-child {
+   padding: 18px;
 }
 
 #navBar {
@@ -115,7 +176,7 @@ margin-left: 45px;
    padding: 0;
    width: 4%;
    position: fixed;
-   top: 60px;
+   top: 20px;
    right: 0;
    z-index: 9999;
 }
