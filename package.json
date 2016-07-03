@@ -1,0 +1,24 @@
+{
+  "name": "myportfoliowebsite",
+  "version": "1.0.0",
+  "description": "V1.0 of my portfolio website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfmlol/myPortfolio.git"
+  },
+  "author": "Mike M. Nguyen <tfm2lol@gmail.com> (http://example.ca/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tfmlol/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/tfmlol/myPortfolio#readme"
+}
