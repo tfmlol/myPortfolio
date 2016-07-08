@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+/*@import url(https://fonts.googleapis.com/css?family=Pacifico);*/
 
 p {
    color: #ffffff;
@@ -27,11 +28,13 @@ body {
    background: url("../images/geek.png") no-repeat no-repeat fixed;
    height: 900px;
    width: 100%;
+   background-attachment: fixed;
+   background-size: 100% 100%;
 }
 
 #name {
    font-size: 180px;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    color: #ffffff;
    padding: 5px;
 }
@@ -48,7 +51,7 @@ margin-left: 45px;
 /*Mission Statement*/
 #missionState {
    font-size: 24px;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    color: #ffffff;
    padding: 5px;
    border: 5px solid #ffffff;
@@ -82,7 +85,7 @@ margin-left: 45px;
 #sectTwo article:first-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -121,7 +124,7 @@ margin-left: 45px;
 #sectThree article:last-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -149,7 +152,7 @@ margin-left: 45px;
 #sectFour article:first-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -172,9 +175,9 @@ margin-left: 45px;
 }
 
 #socialBar{
-   margin: 4px 65px 4px 0px;
+   /*margin: 4px 65px 4px  0px;*/
    padding: 0;
-   width: 4%;
+   width: 8%;
    position: fixed;
    top: 20px;
    right: 0;
@@ -214,8 +217,8 @@ ul li.icon {
    display: inline-block;
    text-align: center;
    text-decoration: none;
-   color: white;
    font-size: 18px;
+   color: white;
    transition: 0.5s;
 }
 
@@ -236,7 +239,7 @@ footer {
    font-size: 24px;
    height: 600px;
    width: 100%;
-   font-family: 'Pacifico', cursive;
+   font-family: 'Yellowtail', cursive;
    overflow: hidden;
    /*Creating rows with flex*/
    display: -ms-flexbox;

@@ -1,7 +1,7 @@
 {
   "name": "myportfoliowebsite",
   "version": "1.0.0",
-  "description": "V1.0 of my portfolio website",
+  "description": "My layout for a parallax concept website",
   "main": "server.js",
   "dependencies": {
     "express": "4.14.0"
