@@ -1,5 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Yellowtail);
-/*@import url(https://fonts.googleapis.com/css?family=Pacifico);*/
 
 p {
    color: #ffffff;
@@ -34,7 +34,7 @@ body {
 
 #name {
    font-size: 180px;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    color: #ffffff;
    padding: 5px;
 }
@@ -51,7 +51,7 @@ margin-left: 45px;
 /*Mission Statement*/
 #missionState {
    font-size: 24px;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    color: #ffffff;
    padding: 5px;
    border: 5px solid #ffffff;
@@ -85,7 +85,7 @@ margin-left: 45px;
 #sectTwo article:first-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -124,7 +124,7 @@ margin-left: 45px;
 #sectThree article:last-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -152,7 +152,7 @@ margin-left: 45px;
 #sectFour article:first-child h3 {
    text-align: center;
    font-size: 120px;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    color: #ffffff;
    margin-top: 35%;
 }
@@ -239,7 +239,7 @@ footer {
    font-size: 24px;
    height: 600px;
    width: 100%;
-   font-family: 'Yellowtail', cursive;
+   font-family: 'Kaushan Script', cursive;
    overflow: hidden;
    /*Creating rows with flex*/
    display: -ms-flexbox;
